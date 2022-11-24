@@ -1,6 +1,6 @@
 <script>
 	import Header from './Header.svelte';
-	import './styles.css';
+	import './styles.scss';
 </script>
 
 <div class="app">
@@ -15,7 +15,7 @@
 	</footer>
 </div>
 
-<style>
+<style lang="scss">
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -39,10 +39,10 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
-	}
 
-	footer a {
-		font-weight: bold;
+		a {
+			font-weight: bold;
+		}
 	}
 
 	@media (min-width: 480px) {
